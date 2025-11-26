@@ -461,6 +461,54 @@ body {
     color: var(--accent);
 }
 
+/* Review Links */
+.review-links-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.review-links-text {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.review-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-review {
+    min-width: 160px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.btn-yelp {
+    background-color: #FF1A1A; /* Yelp Red */
+    box-shadow: 0 4px 15px rgba(255, 26, 26, 0.3);
+}
+
+.btn-yelp:hover {
+    background-color: #d91212;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 26, 26, 0.4);
+}
+
+.btn-google {
+    background-color: #4285F4; /* Google Blue */
+    box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+}
+
+.btn-google:hover {
+    background-color: #3367D6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4);
+}
+
 /* Location Section */
 .location-section {
     padding: 100px 0;
