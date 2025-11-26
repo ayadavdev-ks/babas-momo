@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baba's Momo | Authentic Himalayan Cuisine in Sunnyvale</title>
+    <meta name="description"
+        content="Experience the best Momos in Sunnyvale at Baba's Kitchen. Authentic Nepali and Indian cuisine, available for pickup and delivery.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Baba's<span class="accent">Momo</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="tel:4088169549" class="nav-phone">(408) 816-9549</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="tagline">Taste of the Himalayas</span>
+            <h1>Authentic <span class="text-gradient">Momos</span> <br>in Sunnyvale</h1>
+            <p>Hand-crafted dumplings, spicy chutneys, and rich flavors delivered straight to your tastebuds.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#location" class="btn btn-secondary">Find Us</a>
+            </div>
+            <div class="status-badge" id="status-badge">
+                <span class="status-dot"></span>
+                <span class="status-text">Checking Status...</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our <span class="accent">Menu</span></h2>
+            <p class="section-subtitle">Authentic flavors prepared with love</p>
+
+
+            <div class="menu-grid">
+                <!-- Momos Category -->
+                <div class="menu-category">
+                    <h3>Signature Momos</h3>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Jhol Momo</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Hand-made dumplings served in a spiced, creamy sesame broth. #1 Customer
+                            Favorite!</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Momo Steam</span>
+                            <span class="item-price">$13.95</span>
+                        </div>
+                        <p class="item-desc">Delicate steamed dumplings filled with seasoned minced chicken.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Momo Fry</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Crispy fried dumplings served with spicy dipping sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Chilli Momo</span>
+                            <span class="item-price">$15.95</span>
+                        </div>
+                        <p class="item-desc">Fried momos tossed in a spicy chili sauce with bell peppers and onions.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Jhol Momo</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Vegetable dumplings in our signature spicy jhol broth.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Momo Steam</span>
+                            <span class="item-price">$13.95</span>
+                        </div>
+                        <p class="item-desc">Steamed dumplings filled with fresh seasoned vegetables.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Chilli Momo</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Vegetable momos tossed in spicy chili sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Momo Fry</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Crispy fried vegetable dumplings.</p>
+                    </div>
+                </div>
+
+                <!-- Noodles & Rice -->
+                <div class="menu-category">
+                    <h3>Noodles & Rice</h3>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Chowmein</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Stir-fried noodles with chicken and seasonal vegetables.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Chowmein</span>
+                            <span class="item-price">$15.95</span>
+                        </div>
+                        <p class="item-desc">Stir-fried noodles with fresh vegetables and savory spices.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Fried Rice</span>
+                            <span class="item-price">$15.95</span>
+                        </div>
+                        <p class="item-desc">Wok-tossed rice with chicken, egg, and vegetables.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Veg Fried Rice</span>
+                            <span class="item-price">$14.95</span>
+                        </div>
+                        <p class="item-desc">Flavorful fried rice with mixed vegetables.</p>
+                    </div>
+                </div>
+
+                <!-- Appetizers -->
+                <div class="menu-category">
+                    <h3>Appetizers</h3>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Wai Wai Chatpate</span>
+                            <span class="item-price">$9.95</span>
+                        </div>
+                        <p class="item-desc">Crunchy noodles tossed with onions, tomatoes, chili, and lemon.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Samosa (3pcs)</span>
+                            <span class="item-price">$8.95</span>
+                        </div>
+                        <p class="item-desc">Crispy pastry pockets filled with spiced potatoes and peas.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Samosa Chaat</span>
+                            <span class="item-price">$11.95</span>
+                        </div>
+                        <p class="item-desc">Crushed samosas topped with yogurt, chutneys, and spices.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Pani Puri</span>
+                            <span class="item-price">$9.95</span>
+                        </div>
+                        <p class="item-desc">Crispy hollow shells filled with spicy tamarind water and potatoes.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Chilli</span>
+                            <span class="item-price">$13.95</span>
+                        </div>
+                        <p class="item-desc">Tender chicken pieces tossed with bell peppers, onions, and green chilies.
+                        </p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Gobi Manchurian</span>
+                            <span class="item-price">$10.95</span>
+                        </div>
+                        <p class="item-desc">Crispy cauliflower florets tossed in a spicy, tangy sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Tofu Chilly</span>
+                            <span class="item-price">$12.95</span>
+                        </div>
+                        <p class="item-desc">Crispy tofu cubes tossed in a spicy chili sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Chicken Sausage (3pcs)</span>
+                            <span class="item-price">$9.95</span>
+                        </div>
+                        <p class="item-desc">Grilled chicken sausages served with dipping sauce.</p>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-category">
+                    <h3>Drinks</h3>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Mango Lassi</span>
+                            <span class="item-price">$4.99</span>
+                        </div>
+                        <p class="item-desc">Refreshing yogurt-based mango drink.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Soda (Coke/Sprite)</span>
+                            <span class="item-price">$2.99</span>
+                        </div>
+                        <p class="item-desc">Chilled canned soda.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <span class="item-name">Lemonade</span>
+                            <span class="item-price">$3.99</span>
+                        </div>
+                        <p class="item-desc">Freshly squeezed lemonade.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="price-disclaimer">*Prices subject to change without notice. Prices may vary between the food truck
+                and online delivery platforms.</p>
+        </div>
+    </section>
+
+    <section id="order" class="order-section">
+        <div class="container">
+            <h2 class="section-title">Order <span class="accent">Online</span></h2>
+            <p class="section-subtitle">Get Baba's Momo delivered to your doorstep</p>
+
+            <div class="delivery-grid">
+                <a href="https://www.doordash.com/en/store/baba's-kitchen-sunnyvale-33671541/62141346/" target="_blank"
+                    class="delivery-card doordash">
+                    <div class="card-content">
+                        <h3>DoorDash</h3>
+                        <p>Order Now &rarr;</p>
+                    </div>
+                </a>
+                <a href="https://www.ubereats.com/store/babas-kitchen-sunnyvale/x6gi73hXVlSRrLO02_kewg" target="_blank"
+                    class="delivery-card ubereats">
+                    <div class="card-content">
+                        <h3>UberEats</h3>
+                        <p>Order Now &rarr;</p>
+                    </div>
+                </a>
+                <a href="https://postmates.com/store/babas-kitchen-sunnyvale/x6gi73hXVlSRrLO02_kewg" target="_blank"
+                    class="delivery-card postmates">
+                    <div class="card-content">
+                        <h3>Postmates</h3>
+                        <p>Order Now &rarr;</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">What People <span class="accent">Say</span></h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"The Chicken Jhol Momo is absolutely incredible. The broth is rich and spicy,
+                        just like back home. Highly recommend!"</p>
+                    <span class="reviewer">- Happy Customer via UberEats</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Best spot for late-night cravings. The Wai Wai Chatpate is spicy and
+                        crunchy, perfect with a Mango Lassi."</p>
+                    <span class="reviewer">- Local Foodie</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <p class="review-text">"Authentic flavors and generous portions. The fried momos are a must-try."
+                    </p>
+                    <span class="reviewer">- Sunnyvale Resident</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location-section">
+        <div class="container location-container">
+            <div class="location-info">
+                <h2 class="section-title">Visit <span class="accent">Us</span></h2>
+                <div class="info-item">
+                    <h3>📍 Location</h3>
+                    <p>296 N Fair Oaks Avenue<br>Sunnyvale, CA 94085</p>
+                    <p class="note">(Inside Baba's Kitchen)</p>
+                    <p class="contact-phone"><a href="tel:4088169549">📞 (408) 816-9549</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>⏰ Hours</h3>
+                    <p>Daily: 2:00 PM – 8:40 PM</p>
+                    <p class="note">Delivery available via DoorDash, UberEats, Postmates</p>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.362907408085!2d-122.02067752390207!3d37.381249034730885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb640de10b9b1%3A0x85b5153c5bd6cc48!2s296%20N%20Fair%20Oaks%20Ave%2C%20Sunnyvale%2C%20CA%2094085!5e0!3m2!1sen!2sus!4v1764189277609!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Baba's Momo. All rights reserved. | <a href="tel:4088169549">(408) 816-9549</a></p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
